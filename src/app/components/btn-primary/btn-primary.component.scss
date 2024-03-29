@@ -26,3 +26,16 @@
         font-weight: bold;
     }
 }
+
+@media screen and (max-width: 1080px) {
+    .btn{
+        padding: 10px 4%;
+
+        
+        &.secondary{
+            font-size: 22px;
+            padding: 12px 30px;
+        }
+    }
+}
+

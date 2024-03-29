@@ -68,13 +68,33 @@ main{
     justify-content: center;
 }
 
-@media (min-width: 1080px) {
+@media  (min-width: 1080px) {
     .main-section{
         flex-direction: row;
     }
     
     .benefit-section{
         flex-direction: row;
+    }
+}
+
+
+@media screen and (max-width: 1080px) {
+    .main-section{
+        h1{
+            font-size: 40px;
+        }
+
+        img{
+            height: 300px;
+            width: 400px;
+            padding: 0 4%;
+        }
+
+        .benefit-data h2{
+            padding: 0 4%;
+            text-align: center;
+        }
     }
 }
 
