@@ -1,0 +1,3 @@
+interface NewletterResponse{
+    message: string
+}
